@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header {
+  background: #1c658c;
+  padding: 10px 0;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.links-container .navbar-links {
+  display: flex;
+}
+.navbar-links .link-item {
+  margin: 0 5px;
+  list-style: none;
+}
+.navbar-links .link-item a {
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-links .link-item a:hover {
+  color: orange;
+}
+
+.cart-length {
+  margin: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  vertical-align: super;
+  color: orange;
+}
